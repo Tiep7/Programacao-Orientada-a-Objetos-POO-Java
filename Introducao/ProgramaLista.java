@@ -1,7 +1,7 @@
-#Escreva um programa que leia uma lista com n inteiros. 
-#O programa então irá imprimir os elementos da lista. 
-#Essa lista de valores está ordenada (em ordem crescente). 
-#As posições livres (final da lista) receberão o valor -1.
+/*Escreva um programa que leia uma lista com n inteiros. 
+O programa então irá imprimir os elementos da lista. 
+Essa lista de valores está ordenada (em ordem crescente). 
+As posições livres (final da lista) receberão o valor -1.*/
 import java.util.Scanner;
 public class ProgramaLista {
     
