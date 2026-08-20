@@ -1,1 +1,26 @@
-#exercicio1
+#Leia uma sequência de n inteiros e mostre quantos são potências de 2.
+import java.util.Scanner;
+
+public class Potencias2{
+    public static boolean verificarPotencia2(int valor) {
+        while (valor != 1) {
+            if (valor % 2 != 0) return false;
+            valor /= 2;
+        }
+    return true;
+    }
+    
+    public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
+        int n = leitor.nextInt();
+        int qtd = 0;
+        
+        for (int i = 0; i < n; i++) {
+            int valor = leitor.nextInt();
+            if (verificarPotencia2(valor)) {
+                qtd++;
+            }
+        }
+        System.out.println(qtd);
+    }
+}
