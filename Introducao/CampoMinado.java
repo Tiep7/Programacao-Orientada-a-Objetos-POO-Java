@@ -1,6 +1,6 @@
-#Escreva um programa que leia uma matriz que contém o mapa de um campo minado. 
-#Nesta matriz, o valor 1 indica que há uma bomba na célula e o valor 0 indica que não há uma bomba na célula. 
-#A matriz é composta apenas pelos valores 0 e 1.
+//Escreva um programa que leia uma matriz que contém o mapa de um campo minado. 
+//Nesta matriz, o valor 1 indica que há uma bomba na célula e o valor 0 indica que não há uma bomba na célula. 
+//A matriz é composta apenas pelos valores 0 e 1.
 import java.util.Scanner;
 public class CampoMinado {
 public static void main(String[] args) {
