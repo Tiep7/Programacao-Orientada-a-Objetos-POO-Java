@@ -1,4 +1,4 @@
-#Escreva um programa que calcule o valor de Π usando a série de Gregory
+//Escreva um programa que calcule o valor de Π usando a série de Gregory
 import java.util.Scanner;
 import java.lang.Math;
 
