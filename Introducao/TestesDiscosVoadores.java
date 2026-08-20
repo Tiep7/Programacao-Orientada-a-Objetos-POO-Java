@@ -1,15 +1,16 @@
-#Os dados de discos voadores são organizados em uma matriz, 
-#em que cada linha é um disco voador e cada coluna é o resultado do teste. 
-#Um grupo de alienígenas gostaria de analisar esses dados, mas precisa de um programa para ordenar esses dados.
+/*Os dados de discos voadores são organizados em uma matriz, 
+em que cada linha é um disco voador e cada coluna é o resultado do teste. 
+Um grupo de alienígenas gostaria de analisar esses dados, mas precisa de um programa para ordenar esses dados.
 
-#Escreva um programa que leia uma matriz de inteiros (com os dados dos discos voadores) e então ordene a matriz por linhas (ordem crescente lexicográfica) e depois por colunas (ordem crescente lexicográfica), 
-#conforme descrito a seguir:
+Escreva um programa que leia uma matriz de inteiros (com os dados dos discos voadores) 
+e então ordene a matriz por linhas (ordem crescente lexicográfica) e depois por colunas (ordem crescente lexicográfica), 
+conforme descrito a seguir:
 
-#1) Leia dois valores inteiros com dimensões da matriz: n_linhas e n_colunas
+1) Leia dois valores inteiros com dimensões da matriz: n_linhas e n_colunas
 
-#2) Leia os dados da matriz
+2) Leia os dados da matriz
 
-#3) Ordene a matriz por linhas de acordo com a ordem crescente lexicográfica.
+3) Ordene a matriz por linhas de acordo com a ordem crescente lexicográfica.*/
 
 import java.util.Scanner;
 
