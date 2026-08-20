@@ -1,7 +1,7 @@
-#Escreva um programa que leia um vetor com n inteiros. 
-#O programa então irá imprimir o vetor lido. Após isso, 
-#o programa deve ordenar os elementos em ordem crescente utilizando o algoritmo de ordenação Selection sort (há um material de revisão sobre alguns algoritmos de ordenação no Moodle). 
-#O vetor ordenado deve ser impresso, assim como a quantidade de trocas realizadas entre elementos diferentes do vetor durante a ordenação.
+/*Escreva um programa que leia um vetor com n inteiros. 
+O programa então irá imprimir o vetor lido. Após isso, 
+o programa deve ordenar os elementos em ordem crescente utilizando o algoritmo de ordenação Selection sort. 
+O vetor ordenado deve ser impresso, assim como a quantidade de trocas realizadas entre elementos diferentes do vetor durante a ordenação.*/
 import java.util.Scanner;
 public class SelectionSort {
     
