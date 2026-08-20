@@ -1,4 +1,4 @@
-#Leia uma sequência de n inteiros e mostre quantos são potências de 2.
+//Leia uma sequência de n inteiros e mostre quantos são potências de 2.
 import java.util.Scanner;
 
 public class Potencias2{
