@@ -1,3 +1,26 @@
+/*Escreva uma classe com o nome Fracao (a classe deve estar no pacote matematica) para representar um número racional conforme especificado a seguir (numerador e denominador são números inteiros, mas o denominador não pode ser zero).
+
+Construtores da classe Fracao (todos os construtores são públicos):
+
+Fracao()
+construtor sem parâmetros, inicializa o numerador e o denominador como 1.
+Fracao(int numerador)
+construtor que recebe apenas o valor do numerador (o denominador é definido como 1).
+Fracao(int numerador, int denominador)
+construtor que recebe os valores do numerador e do denominador, simplifica a fração e então armazena o valores de numerador e denominador após a simplificação.
+Métodos da classe Fracao:
+
+public String getRepresentacao()
+retorna uma String com a fração no formato "numerador/denominador".
+public Fracao somar(Fracao f2)
+retorna uma nova instância de Fracao, que é resultado da soma da instância atual (this) com a fração f2.
+public static Fracao somar(Fracao f1, Fracao f2)
+recebe duas frações e retorna uma nova instância de Fracao correspondendo à soma das frações;
+public static Fracao somar(Fracao[] fracoes)
+recebe um vetor de frações e retona uma nova instância de Fracao com o resultado do somatório de todas as frações no vetor.
+public static Fracao multiplicar(Fracao f1, Fracao f2)
+recebe duas frações e retorna uma nova instância de Fracao correspondendo ao produto das frações.*/
+
 package matematica;
 
 public class Fracao {
