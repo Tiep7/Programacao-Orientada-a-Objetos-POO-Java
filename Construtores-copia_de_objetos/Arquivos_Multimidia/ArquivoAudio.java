@@ -7,7 +7,7 @@ public class ArquivoAudio extends ArquivoMultimidia {
     }
     @Override
     public String toString() {
-        String audio = String.format("Audio: %s (HD = %s)", getNomeArquivo(), audioHD)
+         String audio = String.format("Audio: %s (HD = %s)", getNomeArquivo(), audioHD)
          return audio;
     }
 }
