@@ -1,3 +1,7 @@
+/*Neste exercício, deve ser implementada uma classe chamada Playlist, que irá armazenar uma playlist de arquivos multimídia. 
+Para isso, neste exercício, devem ser implementadas as classes Playlist, ArquivoMultimidia, ArquivoVideo e ArquivoAudio (todas as classes devem estar no pacote multimidia).*/
+
+ 
 package multimidia;
 public class Playlist implements Cloneable {
     private ArquivoMultimidia[] VetorArquivo;
